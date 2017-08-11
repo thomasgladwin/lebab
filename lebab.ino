@@ -1,5 +1,5 @@
 int myPins[] = {12, 11, 10, 9, 8, 7, 6, 5};
-char indices[] = "01234567";
+char indices[] = "12345678";
 
 char latestChar = "";
 
