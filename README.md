@@ -15,3 +15,8 @@ You can get the port information needed to define the port (like Baud rate) from
 In Presentation, go to Settings and add the serial port with that information. Then in PCL code, simply send a string with a character ‘1’ through ‘8’ to that port.
 
 In EPrime, double-click the Experiment object and add a Serial Port with the correct information. I had to change the COM port number in device manager since EPrime didn't go up to the automatically assigned COM port. Use the Serial class to send characters as in Presentation.
+
+# Citation
+Please cite as: Thomas Edward Gladwin. (2017, August 11). thomasgladwin/lebab: lebab: Task event markers and trigger via USB. Zenodo. http://doi.org/10.5281/zenodo.841804
+
+[![DOI](https://zenodo.org/badge/100045802.svg)](https://zenodo.org/badge/latestdoi/100045802)
