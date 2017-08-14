@@ -1,5 +1,5 @@
 # lebab
-Send markers via USB and an Arduino for psychophysiological experiments
+Send markers via USB and an Arduino for psychophysiological experiments. The current version is very basic and shouldn't be used if time precision is necessary - there's at least a 5 ms uncertainty. Good enough for some purposes though.
 # Hardware
 An Arduino or clone; I used an Elegoo Nano. This included the USB cable and header pins. Breadboard and jumper wires for prototyping, with a LED and resistor for testing. Lab-specific cables.
 # Software for the Arduino
