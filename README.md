@@ -1,11 +1,13 @@
 # lebab
-Send markers via USB and an Arduino for psychophysiological experiments. The current version is very basic and shouldn't be used if time precision is necessary - there's at least a 5 ms uncertainty. Good enough for some purposes though.
+Send markers via USB and an Arduino for psychophysiological experiments.
+
 # Hardware
 An Arduino or clone; I used an Elegoo Nano. This included the USB cable and header pins. Breadboard and jumper wires for prototyping, with a LED and resistor for testing. Lab-specific cables.
+
 # Software for the Arduino
 The Processing code to be uploaded to the Arduino is in lebab.ino. What this does is check whether a character representing a digit from ‘0’ to ‘7’ is sent via USB to the Arduino. If so, the corresponding digital pin is set to HIGH for 5 ms. The characters ‘1’ through ‘8’ are mapped to digital pins 12 through 5. Note that if you take an Arduino Nano and attach it to the top of a breadboad via header pins, its digital pins 12 through 5 are connected to lines 1 (the top line) down to 8.
 
-This allows you to control pins from task presentation software such as EPrime or Presentation (see below).
+This allows you to control pins from task presentation software such as EPrime or Presentation (see below). You can test things via the Serial Monitor.
 
 The Arduino’s ground and the digital pins can be attached to further cables as desired, such as a BNC cable or DB25 parallel port.
 
