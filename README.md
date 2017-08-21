@@ -18,6 +18,8 @@ In Presentation, go to Settings and add the serial port with that information. T
 
 In EPrime, double-click the Experiment object and add a Serial Port with the correct information. I had to change the COM port number in device manager since EPrime didn't go up to the automatically assigned COM port. Use the Serial class to send characters as in Presentation.
 
+For Python / pyGame, see the example script in the repository.
+
 # Citation
 Please cite as: Thomas Edward Gladwin. (2017, August 15). thomasgladwin/lebab: lebab: Task event markers and trigger via USB. Zenodo. http://doi.org/10.5281/zenodo.843500
 
