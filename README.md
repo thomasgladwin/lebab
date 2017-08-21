@@ -12,7 +12,7 @@ This allows you to control pins from task presentation software such as EPrime o
 The Arduino’s ground and the digital pins can be attached to further cables as desired, such as a BNC cable or DB25 parallel port.
 
 # Task presentation software
-You can get the port information needed to define the port (like Baud rate) from Windows' device manager. 
+Check the baud rate in the Processing code (currently 9600). 
 
 In Presentation, go to Settings and add the serial port with that information. Then in PCL code, simply send a string with a character ‘1’ through ‘8’ to that port.
 
